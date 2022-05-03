@@ -65,7 +65,6 @@ jobs:
     - run: |
        powershell.exe .\build\build.ps1 1
     #   make release
-    name: build
-
+    
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
